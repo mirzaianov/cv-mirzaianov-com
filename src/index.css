@@ -1,0 +1,156 @@
+@import './styles/lamkov.css';
+@import './styles/vars.css';
+@import './styles/fonts.css';
+
+body {
+  min-height: 100vh;
+  padding: var(--s);
+  display: flex;
+  justify-content: center;
+  background-color: var(--neutral-70);
+  line-height: 1.2;
+  font-size: var(--p);
+  font-weight: 400;
+  color: var(--text-90);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-90);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.h1-700-up {
+  font-size: var(--h1);
+  font-family: 'Inter Bold';
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 95%;
+}
+
+.h2-400 {
+  font-size: var(--h2);
+  font-weight: 400;
+}
+
+.h2-400-up {
+  font-size: var(--h2);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.h2-700 {
+  font-size: var(--h2);
+  font-family: 'Inter Bold';
+  font-weight: 700;
+}
+
+.h2-700-up {
+  font-size: var(--h2);
+  font-family: 'Inter Bold';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.h3-400 {
+  font-weight: 400;
+  font-size: var(--h3);
+}
+
+.h3-700 {
+  font-size: var(--h3);
+  font-family: 'Inter Bold';
+  font-weight: 700;
+}
+
+.p-400-up {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.p-700 {
+  font-family: 'Inter Bold';
+  font-weight: 700;
+}
+
+.t-400 {
+  font-weight: 400;
+  font-size: var(--t);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--xs);
+}
+
+.course-item__info {
+  display: flex;
+  gap: var(--2xs);
+  padding-block: 1px;
+  align-items: center;
+  gap: var(--2xs);
+  padding-left: var(--s);
+}
+
+.list-0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--2xs);
+}
+
+.list-item {
+  display: flex;
+  gap: 2px;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-radius: var(--2xs);
+  background-color: var(--neutral-90);
+}
+
+.job__info {
+  display: flex;
+  gap: var(--2xs);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skill {
+  display: inline-block;
+  padding-inline: var(--xs);
+  padding-block: var(--2xs);
+  border: 1px solid var(--neutral-90);
+  border-radius: var(--2xs);
+}
+
+.skills-list__block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--2xs);
+}
+
+@media (min-width: 674px) {
+  body {
+    padding: var(--xl);
+    align-items: center;
+  }
+}

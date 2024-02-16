@@ -1,0 +1,12 @@
+.language-item {
+  display: flex;
+  gap: var(--2xs);
+  align-items: center;
+}
+
+.language-item__description {
+  display: flex;
+  gap: 2px;
+  min-width: var(--min-w-lang-en);
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+:root {
+  --t: 8px;
+  --p: 9px;
+  --h3: 12px;
+  --h2: 14px;
+  --h1: 32px;
+  --neutral-00: #ffffff;
+  --neutral-10: #e2e2e2;
+  --neutral-70: #595d62;
+  --neutral-90: #111928;
+  --text-00: #ffffff;
+  --text-90: #111928;
+  --2xs: 4px;
+  --xs: 8px;
+  --s: 16px;
+  --m: 24px;
+  --l: 32px;
+  --xl: 40px;
+  --2xl: 56px;
+  --3xl: 80px;
+  --max-w-xs: 674px;
+  --min-w-xl: 675px;
+  --min-w-info: 56px;
+  --min-w-lang-ru: 72px;
+  --min-w-lang-en: 48px;
+  --min-w-app-xs: 288px;
+  --max-w-app-xs: 350px;
+  --w-app-xl: 595px;
+  --h-app-xl: 842px;
+  --w-left-xl: 245px;
+}

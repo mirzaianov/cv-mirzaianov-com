@@ -1,0 +1,15 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s);
+  background-color: var(--neutral-00);
+  padding: var(--s);
+}
+
+@media (min-width: 674px) {
+  .right {
+    justify-content: space-between;
+    gap: 0;
+    width: calc(100% - var(--w-left-xl));
+  }
+}

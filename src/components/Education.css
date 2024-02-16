@@ -1,0 +1,11 @@
+.education__heading {
+  display: flex;
+  gap: var(--2xs);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.education__type {
+  display: flex;
+  gap: var(--2xs);
+}

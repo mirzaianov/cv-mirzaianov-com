@@ -1,0 +1,16 @@
+.app {
+  max-width: var(--max-w-app-xs);
+  min-width: var(--min-w-app-xs);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 674px) {
+  .app {
+    min-width: var(--w-app-xl);
+    max-width: var(--w-app-xl);
+    min-height: var(--h-app-xl);
+    max-height: var(--h-app-xl);
+    flex-direction: row;
+  }
+}

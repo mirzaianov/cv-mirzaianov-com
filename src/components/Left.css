@@ -1,0 +1,15 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s);
+  background-color: var(--neutral-10);
+  padding: var(--s);
+}
+
+@media (min-width: 674px) {
+  .left {
+    justify-content: space-between;
+    gap: 0;
+    width: var(--w-left-xl);
+  }
+}
