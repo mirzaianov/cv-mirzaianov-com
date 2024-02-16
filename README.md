@@ -1,9 +1,8 @@
-# A New Project Template
+# CV • RIAZ MIRZAIANOV
 
-! Fill the Description
+Hi! This is a repo of my CV site.
 
-! Correct:
+I am looking forward to hearing from you regarding any type of collaboration!
 
-1. package.json
-2. index.html
-3.
+Best regards,
+Riaz
