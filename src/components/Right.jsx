@@ -1,18 +1,18 @@
-import Courses from './Courses';
+import CoursesBlock from './CoursesBlock';
 import Divider from './Divider';
-import Education from './Education';
-import Experience from './Experience';
+import EducationBlock from './EducationBlock';
+import WorkExperienceBlock from './WorkExperienceBlock';
 
 import './Right.css';
 
 const Right = () => {
   return (
     <div className="right">
-      <Experience />
+      <WorkExperienceBlock />
       <Divider />
-      <Courses />
+      <CoursesBlock />
       <Divider />
-      <Education />
+      <EducationBlock />
     </div>
   );
 };

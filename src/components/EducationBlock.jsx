@@ -1,6 +1,6 @@
-import './Education.css';
+import './EducationBlock.css';
 
-const Education = () => {
+const EducationBlock = () => {
   return (
     <div className="block">
       <h2 className="h2-700-up">Education</h2>
@@ -13,7 +13,9 @@ const Education = () => {
           <div className="h3-400">GPA 4.2</div>
         </div>
         <div className="education__type">
-          <p>Full-time education</p>
+          <p className="p-700">Higher Education</p>
+          <p>|</p>
+          <p>Full-time</p>
         </div>
         <p>
           Kazan National Research Technical University named after A.N.
@@ -24,4 +26,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default EducationBlock;

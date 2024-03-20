@@ -1,50 +1,40 @@
-import CourseItem from './CourseItem';
-
-import Udemy from '../assets/icons/udemy.svg';
-import KevinPowell from '../assets/icons/kevin-powell.svg';
+import Course from './Course';
 
 const CoursesList = () => {
   return (
     <ul className="list">
-      <CourseItem
+      <Course
         courseName="Modern TypeScript Complete Course"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Ivan Petrichenko"
       />
-      <CourseItem
+      <Course
         courseName="React - The Complete Guide 2024 (incl. React Router & Redux)"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Maximilian Schwarzmüller"
       />
-      <CourseItem
+      <Course
         courseName="NEW Figma 2023: Getting started the Beginner to Pro Class"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Christine moonlearning"
       />
-      <CourseItem
+      <Course
         courseName="JavaScript Algorithms and Data Structures Masterclass"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Colt Steele"
       />
-      <CourseItem
-        courseName="Conquering Responsive Layouts"
-        courseSrc={KevinPowell}
-        resource="KP"
-        author="Kevin Powell"
-      />
-      <CourseItem
+      <Course
         courseName="The Complete JavaScript Course 2024: From Zero to Expert!"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Jonas Schmedtmann"
       />
-      <CourseItem
+      <Course
+        courseName="CSS - The Complete Guide 2024 (incl. Flexbox, Grid & Sass)"
+        resource="Udemy"
+        author="Maximilian Schwarzmüller"
+      />
+      <Course
         courseName="WEB Developer"
-        courseSrc={Udemy}
         resource="Udemy"
         author="Ivan Petrichenko"
       />

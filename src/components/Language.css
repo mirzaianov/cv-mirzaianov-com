@@ -1,10 +1,10 @@
-.language-item {
+.language {
   display: flex;
   gap: var(--2xs);
   align-items: center;
 }
 
-.language-item__description {
+.language__description {
   display: flex;
   gap: 2px;
   min-width: var(--min-w-lang-en);

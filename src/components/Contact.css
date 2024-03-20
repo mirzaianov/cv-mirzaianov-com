@@ -1,10 +1,10 @@
-.info-item {
+.contact-item {
   display: flex;
   gap: var(--xs);
   align-items: center;
 }
 
-.info-item__description {
+.contact-item__description {
   display: flex;
   gap: var(--2xs);
   min-width: var(--min-w-info);

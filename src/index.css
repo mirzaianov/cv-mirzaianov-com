@@ -7,9 +7,10 @@ body {
   padding: var(--s);
   display: flex;
   justify-content: center;
-  background-color: var(--neutral-70);
+  background-color: var(--neutral-00);
   line-height: 1.2;
   font-size: var(--p);
+  font-family: 'Inter';
   font-weight: 400;
   color: var(--text-90);
 }
@@ -31,11 +32,11 @@ ul {
 }
 
 .h1-700-up {
+  display: inline-block;
   font-size: var(--h1);
   font-family: 'Inter Bold';
-  font-weight: 700;
   text-transform: uppercase;
-  line-height: 95%;
+  line-height: 110%;
 }
 
 .h2-400 {
@@ -94,7 +95,17 @@ ul {
   gap: var(--xs);
 }
 
-.course-item__info {
+.block-s {
+  gap: var(--s);
+}
+
+.course__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course__info {
   display: flex;
   gap: var(--2xs);
   padding-block: 1px;
@@ -114,6 +125,10 @@ ul {
   gap: var(--2xs);
 }
 
+.list-xs {
+  gap: var(--xs);
+}
+
 .list-item {
   display: flex;
   gap: 2px;
@@ -127,7 +142,8 @@ ul {
   background-color: var(--neutral-90);
 }
 
-.job__info {
+.job__info,
+.job__field {
   display: flex;
   gap: var(--2xs);
   flex-wrap: wrap;
@@ -148,7 +164,7 @@ ul {
   gap: var(--2xs);
 }
 
-@media (min-width: 674px) {
+@media (min-width: 874px) {
   body {
     padding: var(--xl);
     align-items: center;

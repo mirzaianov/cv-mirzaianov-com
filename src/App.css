@@ -3,9 +3,12 @@
   min-width: var(--min-w-app-xs);
   display: flex;
   flex-direction: column;
+  outline: 1px solid var(--neutral-90);
+  border-radius: var(--xs);
+  box-shadow: 5px 5px 0 0 var(--neutral-90);
 }
 
-@media (min-width: 674px) {
+@media (min-width: 874px) {
   .app {
     min-width: var(--w-app-xl);
     max-width: var(--w-app-xl);

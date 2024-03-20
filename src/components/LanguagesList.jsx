@@ -1,21 +1,21 @@
-import LanguageItem from './LanguageItem';
+import Language from './Language';
 
 const LanguagesList = () => {
   return (
     <div className="list-0">
-      <LanguageItem
+      <Language
         language={'English'}
-        level={'Advanced ( C1 / IELTS 7.5 )'}
+        level={'Advanced ( C1 | IELTS 7.5 )'}
       />
-      <LanguageItem
+      <Language
         language={'Turkish'}
         level={'Beginner ( A2 )'}
       />
-      <LanguageItem
+      <Language
         language={'Russian'}
         level={'Native'}
       />
-      <LanguageItem
+      <Language
         language={'Tatar'}
         level={'Native'}
       />

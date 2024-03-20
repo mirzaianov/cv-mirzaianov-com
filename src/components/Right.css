@@ -3,13 +3,17 @@
   flex-direction: column;
   gap: var(--s);
   background-color: var(--neutral-00);
-  padding: var(--s);
+  padding: var(--m);
+  padding-top: calc(var(--m) - 3px);
+  padding-bottom: calc(var(--m) - 3px);
+  border-radius: 0 0 var(--xs) var(--xs);
 }
 
-@media (min-width: 674px) {
+@media (min-width: 874px) {
   .right {
     justify-content: space-between;
     gap: 0;
     width: calc(100% - var(--w-left-xl));
+    border-radius: 0 var(--xs) var(--xs) 0;
   }
 }

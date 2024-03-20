@@ -1,9 +1,9 @@
 import Skill from './Skill.jsx';
 
-const SkillsList = () => {
+const SkillsBlock = () => {
   return (
     <div className="block">
-      <h2 className="h2-700-up">Skills</h2>
+      <h2 className="h2-700-up">Hard Skills</h2>
       <div className="skills-list__block">
         <Skill skillName="JavaScript" />
         <Skill skillName="React" />
@@ -12,17 +12,18 @@ const SkillsList = () => {
         <Skill skillName="HTML" />
         <Skill skillName="CSS" />
         <Skill skillName="Redux" />
+        <Skill skillName="React Router" />
         <Skill skillName="Frontend" />
         <Skill skillName="Webpack" />
         <Skill skillName="SASS" />
         <Skill skillName="SCSS" />
         <Skill skillName="REST" />
-        <Skill skillName="Figma" />
         <Skill skillName="Cross-Browser Compatibility" />
+        <Skill skillName="UI" />
         <Skill skillName="OOP" />
         <Skill skillName="API" />
         <Skill skillName="SEO" />
-        <Skill skillName="UI" />
+        <Skill skillName="Figma" />
         <Skill skillName="Bootstrap" />
         <Skill skillName="SQL" />
         <Skill skillName="Adaptive Web Design" />
@@ -34,6 +35,7 @@ const SkillsList = () => {
         <Skill skillName="Mobile First" />
         <Skill skillName="HTTP" />
         <Skill skillName="Vite" />
+        <Skill skillName="SPA" />
         <Skill skillName="Tailwind" />
         <Skill skillName="Algorithms" />
         <Skill skillName="Data Structures" />
@@ -42,4 +44,4 @@ const SkillsList = () => {
   );
 };
 
-export default SkillsList;
+export default SkillsBlock;
