@@ -1,9 +1,9 @@
 const ListItem = ({ text }) => {
   return (
-    <div className="list-item">
+    <li className="list-item">
       <p>•</p>
       <p>{text}</p>
-    </div>
+    </li>
   );
 };
 
