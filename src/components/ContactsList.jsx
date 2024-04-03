@@ -5,13 +5,13 @@ const ContactsList = () => {
     <div className="list-0">
       <Contact
         name="LinkedIn:"
-        href="https://www.linkedin.com/in/mirzaianov/"
-        path="www.linkedin.com/in/mirzaianov/"
+        href="https://linkedin.com/in/mirzaianov/"
+        path="linkedin.com/in/mirzaianov"
       />
       <Contact
         name="Site:"
         href="https://cv.mirzaianov.com"
-        path="www.cv.mirzaianov.com"
+        path="cv.mirzaianov.com"
       />
       <Contact
         name="GitHub:"
