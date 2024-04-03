@@ -2,6 +2,7 @@ const Course = ({ courseName, resource, author, href }) => {
   return (
     <li className="list-0">
       <a
+        className="link"
         href={href}
         target="_blank"
       >

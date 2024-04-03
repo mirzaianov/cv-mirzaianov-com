@@ -23,6 +23,19 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: var(--text-90);
+
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  box-shadow: inset 0 0 0 0 var(--neutral-70);
+  transition:
+    color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  /* color: var(--neutral-90); */
+
+  &:hover {
+    color: var(--neutral-00);
+    box-shadow: inset 1000px 0 0 0 var(--neutral-70);
+  }
 }
 
 ul {
@@ -112,6 +125,10 @@ ul {
   align-items: center;
   gap: var(--2xs);
   padding-left: var(--s);
+}
+
+.link {
+  align-self: flex-start;
 }
 
 .list-0 {
