@@ -6,7 +6,7 @@ const Course = ({ courseName, resource, author, href }) => {
         href={href}
         target="_blank"
       >
-        <div className="p-700 course__name">{courseName}</div>
+        <p className="p-700 course__name">{courseName}</p>
       </a>
       <div className="course__info">
         <p>{resource}</p>
