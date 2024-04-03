@@ -2,7 +2,7 @@ import Contact from './Contact';
 
 const ContactsList = () => {
   return (
-    <div className="list-0">
+    <div className="list">
       <Contact
         name="LinkedIn:"
         href="https://linkedin.com/in/mirzaianov/"
