@@ -2,7 +2,7 @@ import Skill from './Skill.jsx';
 
 const SkillsBlock = () => {
   return (
-    <div className="block">
+    <article className="block">
       <h2 className="h2-700-up">Hard Skills</h2>
       <div className="skills-list__block">
         <Skill skillName="JavaScript" />
@@ -40,7 +40,7 @@ const SkillsBlock = () => {
         <Skill skillName="Algorithms" />
         <Skill skillName="Data Structures" />
       </div>
-    </div>
+    </article>
   );
 };
 

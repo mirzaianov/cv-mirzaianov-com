@@ -9,7 +9,7 @@ import './Left.css';
 
 const Left = () => {
   return (
-    <div className="left">
+    <section className="left">
       <InfoBlock />
       <Divider />
       <ContactsBlock />
@@ -19,7 +19,7 @@ const Left = () => {
       <SkillsBlock />
       <Divider />
       <LanguagesBlock />
-    </div>
+    </section>
   );
 };
 

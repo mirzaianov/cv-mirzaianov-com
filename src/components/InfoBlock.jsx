@@ -2,17 +2,17 @@ import './InfoBlock.css';
 
 const InfoBlock = () => {
   return (
-    <div className="info">
-      <h2 className="h1-700-up">
+    <article className="info">
+      <h1 className="h1-700-up">
         Riaz
         <br />
         Mirzaianov
-      </h2>
+      </h1>
       <div className="info__description">
-        <h1 className="h2-400-up">Frontend Developer</h1>
-        <h2 className="h3-400">JavaScript | React | TypeScript</h2>
+        <h2 className="h2-400-up">Frontend Developer</h2>
+        <h3 className="h3-400">JavaScript | React | TypeScript</h3>
       </div>
-    </div>
+    </article>
   );
 };
 

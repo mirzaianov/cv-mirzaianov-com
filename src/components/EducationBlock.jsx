@@ -2,7 +2,7 @@ import './EducationBlock.css';
 
 const EducationBlock = () => {
   return (
-    <div className="block">
+    <article className="block">
       <h2 className="h2-700-up">Education</h2>
       <div className="list">
         <div className="education__heading">
@@ -22,7 +22,7 @@ const EducationBlock = () => {
           Tupolev–KAI
         </p>
       </div>
-    </div>
+    </article>
   );
 };
 

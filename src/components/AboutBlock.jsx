@@ -12,10 +12,10 @@ const summaryArray = [
 
 const AboutBlock = () => {
   return (
-    <div className="block">
+    <article className="block">
       <h2 className="h2-700-up">About</h2>
       <List items={summaryArray} />
-    </div>
+    </article>
   );
 };
 

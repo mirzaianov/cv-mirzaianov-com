@@ -18,7 +18,7 @@ const knorrAchievements = [
 
 const Experience = () => {
   return (
-    <div className="block block-s">
+    <article className="block block-s">
       <h2 className="h2-700-up">Work Experience</h2>
       <Job
         jobTitle="Frontend Developer"
@@ -36,7 +36,7 @@ const Experience = () => {
         date="April 2017 - September 2022"
         achievements={knorrAchievements}
       />
-    </div>
+    </article>
   );
 };
 

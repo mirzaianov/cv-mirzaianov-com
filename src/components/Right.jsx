@@ -7,13 +7,13 @@ import './Right.css';
 
 const Right = () => {
   return (
-    <div className="right">
+    <section className="right">
       <WorkExperienceBlock />
       <Divider />
       <CoursesBlock />
       <Divider />
       <EducationBlock />
-    </div>
+    </section>
   );
 };
 
