@@ -3,7 +3,7 @@ import './EducationBlock.css';
 const EducationBlock = () => {
   return (
     <article className="block">
-      <h2 className="h2-700-up">Education</h2>
+      <header className="h2-700-up">Education</header>
       <div className="list">
         <div className="education__heading">
           <div className="h3-700">Master’s Degree</div>

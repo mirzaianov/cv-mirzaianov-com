@@ -3,7 +3,7 @@ import ContactsList from './ContactsList';
 const ContactsBlock = () => {
   return (
     <article className="block">
-      <h2 className="h2-700-up">Contacts</h2>
+      <header className="h2-700-up">Contacts</header>
       <ContactsList />
     </article>
   );
