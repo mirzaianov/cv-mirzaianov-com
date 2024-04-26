@@ -10,7 +10,7 @@ const Course = ({ courseName, resource, author, href }) => {
       </a>
       <div className="course__info">
         <p>{resource}</p>
-        <p>|</p>
+        <p>•</p>
         <p>{author}</p>
       </div>
     </li>

@@ -5,11 +5,11 @@ const LanguagesList = () => {
     <div className="list-0">
       <Language
         language={'English'}
-        level={'Advanced ( C1 | IELTS 7.5 )'}
+        level={'Advanced C1 • IELTS 7.5'}
       />
       <Language
         language={'Turkish'}
-        level={'Beginner ( A2 )'}
+        level={'Beginner A2'}
       />
       <Language
         language={'Russian'}
