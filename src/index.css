@@ -172,6 +172,10 @@ ul {
   gap: var(--2xs);
 }
 
+.app {
+  position: relative;
+}
+
 @media (min-width: 874px) {
   body {
     padding: var(--xl);
@@ -196,5 +200,9 @@ ul {
 
   .link {
     align-self: flex-start;
+  }
+
+  .app {
+    position: static;
   }
 }

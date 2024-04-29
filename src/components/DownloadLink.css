@@ -1,0 +1,57 @@
+.download-link__bg,
+.download-link__button {
+  position: absolute;
+  width: var(--xl);
+  height: var(--xl);
+  border-radius: 100%;
+}
+
+.download-link__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: calc(var(--xl));
+  bottom: calc(var(--xl));
+  /* left: 0px; */
+  /* top: 0px; */
+}
+
+.download-link__bg {
+  animation: pulse 1.2s ease infinite;
+  background: var(--neutral-90);
+}
+
+.download-link__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  border: none;
+  background: var(--neutral-90);
+  background-size: var(--xl);
+  cursor: pointer;
+  outline: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 874px) {
+  .download-link__container {
+    position: sticky;
+    /* right: calc(var(--xl) - var(--xs)); */
+    /* bottom: 0; */
+  }
+}
