@@ -1,17 +1,21 @@
-import { FaCircleDown } from 'react-icons/fa6';
 import { IoMdArrowRoundDown } from 'react-icons/io';
+import getNameWithDate from '../utils/getNameWithDate';
 import './DownloadLink.css';
 
-const DownloadLink = ({ url, fileName }) => {
-  const handleDownload = () => {
+const URL =
+  'https://www.dl.dropboxusercontent.com/scl/fi/zntiryytd866lcqqyljoi/20240426_MIRZAIANOV_A4_EN.pdf?rlkey=xsd6n63y96rsxrqhqqxeoj10n&dl=0';
+
+const DownloadLink = () => {
+  const handleDownload = (url) => {
     fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const url = window.URL.createObjectURL(new Blob([blob]));
+      .then((response) => response.arrayBuffer())
+      .then((buffer) => {
+        const blob = new Blob([buffer], { type: 'application/pdf' });
+        const url = window.URL.createObjectURL(blob);
         const link = document.createElement('a');
 
         link.href = url;
-        link.download = fileName || 'downloaded-file';
+        link.download = getNameWithDate() || 'downloaded-file';
         document.body.appendChild(link);
 
         link.click();
@@ -29,7 +33,7 @@ const DownloadLink = ({ url, fileName }) => {
       <div className="download-link__bg"></div>
       <button
         className="download-link__button"
-        onClick={handleDownload}
+        onClick={() => handleDownload(URL)}
       >
         <IoMdArrowRoundDown
           style={{ color: 'var(--neutral-10)', fontSize: '5em' }}
