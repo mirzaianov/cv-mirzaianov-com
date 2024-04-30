@@ -6,15 +6,13 @@
   border-radius: 100%;
 }
 
-.download-link__container {
+.download-link {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: calc(var(--xl));
-  bottom: calc(var(--xl));
-  /* left: 0px; */
-  /* top: 0px; */
+  right: var(--xl);
+  bottom: var(--xl);
 }
 
 .download-link__bg {
@@ -48,10 +46,26 @@
   }
 }
 
+@media (min-width: 510px) {
+  .download-link {
+    left: calc(50% + var(--min-w-app-xs) / 2 + var(--xl));
+    transform: translateX(-50%);
+  }
+}
+
 @media (min-width: 874px) {
-  .download-link__container {
-    position: sticky;
-    /* right: calc(var(--xl) - var(--xs)); */
-    /* bottom: 0; */
+  .download-link {
+    left: auto;
+    right: var(--xl);
+    transform: none;
+    bottom: 50%;
+  }
+}
+
+@media (min-width: 960px) {
+  .download-link {
+    left: calc(50% + var(--w-app-xl) / 2 + var(--xl));
+    right: auto;
+    transform: translateX(-50%);
   }
 }

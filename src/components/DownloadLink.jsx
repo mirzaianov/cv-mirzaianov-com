@@ -25,7 +25,7 @@ const DownloadLink = ({ url, fileName }) => {
   };
 
   return (
-    <div className="download-link__container">
+    <div className="download-link">
       <div className="download-link__bg"></div>
       <button
         className="download-link__button"

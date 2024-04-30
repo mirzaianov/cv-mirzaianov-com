@@ -201,8 +201,4 @@ ul {
   .link {
     align-self: flex-start;
   }
-
-  .app {
-    position: static;
-  }
 }
