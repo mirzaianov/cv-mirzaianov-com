@@ -1,4 +1,4 @@
-import { IoMdArrowRoundDown } from 'react-icons/io';
+import { HiOutlineDownload } from 'react-icons/hi';
 import getNameWithDate from '../utils/getNameWithDate';
 import './DownloadLink.css';
 
@@ -35,8 +35,8 @@ const DownloadLink = () => {
         className="download-link__button"
         onClick={() => handleDownload(URL)}
       >
-        <IoMdArrowRoundDown
-          style={{ color: 'var(--neutral-10)', fontSize: '5em' }}
+        <HiOutlineDownload
+          style={{ color: 'var(--neutral-10)', fontSize: 'var(--m)' }}
         />
       </button>
     </div>
