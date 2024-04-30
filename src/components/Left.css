@@ -5,7 +5,6 @@
   background-color: var(--neutral-10);
   padding: var(--m);
   padding-top: calc(var(--m) - 6px);
-  /* padding-bottom: calc(var(--m) - 3px); */
   border-radius: var(--xs) var(--xs) 0 0;
 }
 

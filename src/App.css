@@ -1,6 +1,7 @@
 .app {
   max-width: var(--max-w-app-xs);
   min-width: var(--min-w-app-xs);
+  position: relative;
   display: flex;
   flex-direction: column;
   outline: 1px solid var(--neutral-90);

@@ -8,7 +8,7 @@ function getNameWithDate() {
   const day = date.getDate().toString().padStart(2, '0');
   const currentDay = `${year}${month}${day}`;
 
-  return `${currentDay}_Mirzaianov_${FORMAT}${LANGUAGE}.pdf`;
+  return `${currentDay}_MIRZAIANOV_${FORMAT}${LANGUAGE}.pdf`;
 }
 
 export default getNameWithDate;
