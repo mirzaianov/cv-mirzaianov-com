@@ -157,8 +157,9 @@ ul {
   display: inline-block;
   padding-inline: var(--xs);
   padding-block: var(--2xs);
-  border: 1px solid var(--neutral-90);
   border-radius: var(--2xs);
+  outline: 1px solid var(--neutral-90);
+  outline-offset: -1px;
 }
 
 .skills-list__block {
