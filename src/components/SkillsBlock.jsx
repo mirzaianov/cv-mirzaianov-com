@@ -16,7 +16,7 @@ const SkillsBlock = () => {
         <Skill skillName="Frontend" />
         <Skill skillName="Webpack" />
         <Skill skillName="SASS" />
-        <Skill skillName="SCSS" />
+        <Skill skillName="Firebase" />
         <Skill skillName="REST" />
         <Skill skillName="Cross-Browser Compatibility" />
         <Skill skillName="UI" />
@@ -27,7 +27,7 @@ const SkillsBlock = () => {
         <Skill skillName="Bootstrap" />
         <Skill skillName="SQL" />
         <Skill skillName="Adaptive Web Design" />
-        <Skill skillName="Firebase" />
+        <Skill skillName="SCSS" />
         <Skill skillName="ES6" />
         <Skill skillName="Responsive Web Design" />
         <Skill skillName="Linux" />
@@ -36,9 +36,17 @@ const SkillsBlock = () => {
         <Skill skillName="HTTP" />
         <Skill skillName="Vite" />
         <Skill skillName="SPA" />
+        <Skill skillName="Jira" />
         <Skill skillName="Tailwind" />
         <Skill skillName="Algorithms" />
         <Skill skillName="Data Structures" />
+        <Skill skillName="React Hooks" />
+        <Skill skillName="CSS-modules" />
+        <Skill skillName="Github Flow" />
+        <Skill skillName="RTK" />
+        <Skill skillName="Tanstack Query" />
+        <Skill skillName="Gitflow" />
+        <Skill skillName="ESLint" />
       </div>
     </article>
   );
