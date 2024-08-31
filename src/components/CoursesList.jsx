@@ -6,7 +6,7 @@ const CoursesList = () => {
       <Course
         courseName="Modern TypeScript Complete Course"
         resource="Udemy"
-        author="Ivan Petrichenko"
+        author="Ivan Petrychenko"
         href="https://www.udemy.com/course/modern_typescript/"
       />
       <Course
@@ -14,12 +14,6 @@ const CoursesList = () => {
         resource="Udemy"
         author="Maximilian Schwarzmüller"
         href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
-      />
-      <Course
-        courseName="NEW Figma 2023: Getting started the Beginner to Pro Class"
-        resource="Udemy"
-        author="Christine moonlearning"
-        href="https://www.udemy.com/course/figma-beginner/"
       />
       <Course
         courseName="JavaScript Algorithms and Data Structures Masterclass"
@@ -42,7 +36,7 @@ const CoursesList = () => {
       <Course
         courseName="WEB Developer"
         resource="Udemy"
-        author="Ivan Petrichenko"
+        author="Ivan Petrychenko"
         href="https://www.udemy.com/course/webdeveloper/"
       />
     </ul>
