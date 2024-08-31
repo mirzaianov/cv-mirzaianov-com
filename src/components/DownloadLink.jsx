@@ -2,8 +2,7 @@ import { HiOutlineDownload } from 'react-icons/hi';
 import getNameWithDate from '../utils/getNameWithDate';
 import './DownloadLink.css';
 
-const URL =
-  'https://www.dl.dropboxusercontent.com/scl/fi/zntiryytd866lcqqyljoi/20240426_MIRZAIANOV_A4_EN.pdf?rlkey=xsd6n63y96rsxrqhqqxeoj10n&dl=0';
+const URL = '/MIRZAIANOV_CV_A4EN.pdf';
 
 const DownloadLink = () => {
   const handleDownload = (url) => {
