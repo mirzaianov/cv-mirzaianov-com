@@ -4,40 +4,53 @@ const CoursesList = () => {
   return (
     <ul className="list">
       <Course
+        courseName="React & TypeScript - The Practical Guide"
+        resource="Udemy"
+        author="Maximilian Schwarzmüller"
+        year="2024"
+        href="https://www.udemy.com/course/react-typescript-the-practical-guide/"
+      />
+      <Course
         courseName="Modern TypeScript Complete Course"
         resource="Udemy"
         author="Ivan Petrychenko"
+        year="2024"
         href="https://www.udemy.com/course/modern_typescript/"
       />
       <Course
-        courseName="React - The Complete Guide 2024 (incl. React Router & Redux)"
+        courseName="React - React & Redux Complete Course"
         resource="Udemy"
-        author="Maximilian Schwarzmüller"
-        href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+        author="Bogdan Stashchuk"
+        year="2024"
+        href="https://www.udemy.com/course/react-ru/"
       />
       <Course
-        courseName="JavaScript Algorithms and Data Structures Masterclass"
+        courseName="API and Web Service Introduction"
         resource="Udemy"
-        author="Colt Steele"
-        href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/"
+        author="Nate Ross"
+        year="2024"
+        href="https://www.udemy.com/course/api-and-web-service-introduction/"
       />
       <Course
-        courseName="The Complete JavaScript Course 2024: From Zero to Expert!"
-        resource="Udemy"
-        author="Jonas Schmedtmann"
-        href="https://www.udemy.com/course/the-complete-javascript-course/"
+        courseName="Conquering Responsive Layouts"
+        resource="KP"
+        author="Kevin Powell"
+        year="2023"
+        href="https://courses.kevinpowell.co/conquering-responsive-layouts"
       />
       <Course
         courseName="CSS - The Complete Guide 2024 (incl. Flexbox, Grid & Sass)"
         resource="Udemy"
         author="Maximilian Schwarzmüller"
+        year="2023"
         href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/"
       />
       <Course
-        courseName="WEB Developer"
+        courseName="JavaScript + React Complete Course"
         resource="Udemy"
         author="Ivan Petrychenko"
-        href="https://www.udemy.com/course/webdeveloper/"
+        year="2022"
+        href="https://www.udemy.com/course/javascript_full/"
       />
     </ul>
   );

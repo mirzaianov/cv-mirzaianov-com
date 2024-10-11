@@ -1,4 +1,4 @@
-const Course = ({ courseName, resource, author, href }) => {
+const Course = ({ courseName, resource, author, year, href }) => {
   return (
     <li className="list-0">
       <a
@@ -12,6 +12,8 @@ const Course = ({ courseName, resource, author, href }) => {
         <p>{resource}</p>
         <p>•</p>
         <p>{author}</p>
+        <p>•</p>
+        <p>{year}</p>
       </div>
     </li>
   );

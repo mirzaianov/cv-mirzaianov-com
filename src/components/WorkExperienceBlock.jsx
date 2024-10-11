@@ -46,7 +46,7 @@ const Experience = () => {
         achievements={freelanceAchievements}
       />
       <Job
-        jobTitle="Senior R&D Engineer"
+        jobTitle="R&D Engineer"
         company="Knorr-Bremse AG"
         field="Automotive"
         specificity="Braking Systems"
